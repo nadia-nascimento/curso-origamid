@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  height: 1200px;
+}
+
+p{
+  font-size: 20px;
+}
+
+
+.titulo{
+  text-align: center;
+  padding: 40px;
+
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  place-content: center;
+  list-style-type: none;
+ 
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:black;
+  font-size: 16px;
+  background-color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.grid{
+  padding: 20px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  max-width: 1000px;
+  
+}
+
+.bloco1{
+  padding: 20px;
+  background-color: white;
+  display: grid;
+}
+
+.titulo2{
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.descricao{
+  text-align: right;
+}
+
+.botao{
+  padding: 15px;
+  background-color: #ee2211;
+  color: white;
+  justify-self: end;
+}
+
+
+.foto{
+  max-width: 100%;
+}
+
+.bloco4{
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 80px
+}
+
+.titulo3{
+  font-size: 64px;
+  color: #c6c6c6;
+  text-align: center;
+}
+
+.icone{
+  padding-right: 20px
+}
+
+footer{
+  background-color: ;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
