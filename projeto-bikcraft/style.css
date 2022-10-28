@@ -10,21 +10,27 @@ p{
   font-size: 20px;
 }
 
+img{
 
-.titulo{
-  text-align: center;
-  padding: 40px;
-
+  place-items: auto;
 }
 
-ul{
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+  place-content: center;
+}
+
+
+nav ul{
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
   place-content: center;
   list-style-type: none;
- 
 }
+
 
 a{
   text-decoration: none;
@@ -41,8 +47,9 @@ a{
   padding: 20px;
   margin: 20px;
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 1fr 1fr;
   max-width: 1000px;
+  place-content: center;
   
 }
 
@@ -66,24 +73,28 @@ a{
   padding: 15px;
   background-color: #ee2211;
   color: white;
-  justify-self: end;
+  justify-items: end;
 }
 
 
 .foto{
   max-width: 100%;
+
 }
 
 .bloco4{
   background-color: white;
   padding-top: 30px;
-  padding-left: 80px
+  padding-left: 80px;
+
 }
 
 .titulo3{
   font-size: 64px;
   color: #c6c6c6;
   text-align: center;
+  justify-items: auto;
+
 }
 
 .icone{
