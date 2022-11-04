@@ -1,0 +1,93 @@
+  /* PSEUDO-CLASSES SELETORES*/
+
+.div1{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: 10px;
+  color: aquamarine;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.div1:hover{
+  background-color: beige;
+  color: black;
+}
+
+.div2{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: 10px;
+  color: aquamarine;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.div2:focus{
+  background-color: #cfa;
+  color: #371;
+}
+
+.div3{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: 10px;
+  color: aquamarine;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.div3:active{
+  background-color: red;
+  color: bisque;
+}
+
+.div4{
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: 10px;
+  color: aquamarine;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.div4:visited{
+  background-color: pink;
+  color: bisque;
+}
+
+  /* PSEUDO-CLASSES SELETORES*/
+
+
+.lista1 li{
+  background-color: #ffa;
+}
+
+.lista1 li:first-child{
+  background-color: #cfa;
+}
+
+.lista1 li:last-child{
+  background-color:antiquewhite;
+}
+
+.lista2 li:nth-child(even){
+  background-color:aqua;
+}
