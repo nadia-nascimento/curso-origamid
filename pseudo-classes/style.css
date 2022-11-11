@@ -91,3 +91,12 @@
 .lista2 li:nth-child(even){
   background-color:aqua;
 }
+
+
+.lista3 li:not(:first-child, :last-child, .quarto){
+  background-color: #caf;
+}
+
+.lista3 li:nth-child(4){
+  background-color: gold;
+}
