@@ -2,6 +2,13 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+@media (min-width: 400px){
+  .minmax img{
+    grid-row: 2;
+  }
+}
+
+
 .galeria {
   grid-template-columns: repeat(auto-fit, 150px);
 }
